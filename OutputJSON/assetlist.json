@@ -1,0 +1,3457 @@
+[
+  {
+    "AssetID": 43888,
+    "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d",
+    "DeviceID": "C200000F9F",
+    "AssetName": "S01",
+    "SerialNumber": "Sensor 001",
+    "Description": "Carbon Capture Unit",
+    "PlantID": 16328,
+    "PlantName": "FortisBC",
+    "AssetGroupID": 26249,
+    "AssetType": 1,
+    "SensorType": 5,
+    "AssetTypeName": "Motor",
+    "IsFavorite": false,
+    "FirmwareUpdate": {
+      "UpdateAvailable": null,
+      "UpdateFirmwareID": null,
+      "UpdateFirmwareVersion": null,
+      "UpdateFirmwareProperties": null
+    },
+    "BatteryLevel": 0,
+    "HealthStatus": 2,
+    "LastSyncTimeStamp": "2021-11-02T15:53:05Z",
+    "LastMeasurementTimeStamp": "2021-11-02T15:53:05Z",
+    "AssetProperties": [
+      {
+        "AssetPropertyValue": "NEMA",
+        "AssetPropertyName": "Motor Standard",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorClass",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Pump",
+        "AssetPropertyName": "Motor Load",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorLoad",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Fixed Speed",
+        "AssetPropertyName": "Speed Control",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "575.0000",
+        "AssetPropertyName": "Voltage",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 8,
+          "MeasurementUnitGroupName": "Voltage Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Voltage",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "5.2000",
+        "AssetPropertyName": "Current",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 9,
+          "MeasurementUnitGroupName": "Ampere Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Current",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1745.0000",
+        "AssetPropertyName": "Speed",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 14,
+          "MeasurementUnitGroupName": "Rotation Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Speed",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6206",
+        "AssetPropertyName": "DE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6205",
+        "AssetPropertyName": "NDE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.8250",
+        "AssetPropertyName": "Power Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_PowerFact",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "180.0000",
+        "AssetPropertyName": "Shaft Height",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_ShaftHeight",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "3.7300",
+        "AssetPropertyName": "Power",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 5,
+          "MeasurementUnitGroupName": "Power Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Power",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "60.0000",
+        "AssetPropertyName": "Line Frequency",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 10,
+          "MeasurementUnitGroupName": "Frequency Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_LineFrequency",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "NSK",
+        "AssetPropertyName": "DE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "NSK",
+        "AssetPropertyName": "NDE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "DE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealed",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "46.0000",
+        "AssetPropertyName": "DE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactor",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "NDE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealedNDS",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "38.0000",
+        "AssetPropertyName": "NDE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactorNDS",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "Induction",
+        "AssetPropertyName": "Motor Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ShaftRotationType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "FootMount",
+        "AssetPropertyName": "Asset Mounting Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "AssetMountingType",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Landscape",
+        "AssetPropertyName": "Sensor Mounting Orientation",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "SensorMountingOrientation",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Left",
+        "AssetPropertyName": "Terminal Box Position",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "TerminalBoxPosition",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Unknown/Other",
+        "AssetPropertyName": "Connection type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ConnectionType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      }
+    ],
+    "Measurements": [
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Speed",
+        "MeasurementTypeID": 2,
+        "MeasurementTypeName": "Speed",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 14,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 250,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "SkinTemp",
+        "MeasurementTypeID": 4,
+        "MeasurementTypeName": "Skin Temperature",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 4,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 251,
+        "MeasurementValue": "21.7969",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 2,
+          "HealthColor": "#F1CA5C"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "OverallVibration",
+        "MeasurementTypeID": 8,
+        "MeasurementTypeName": "Overall Vibration",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 201,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "LineFrequency",
+        "MeasurementTypeID": 15,
+        "MeasurementTypeName": "Motor Supply Frequency",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 10,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 257,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "BearingCondition",
+        "MeasurementTypeID": 27,
+        "MeasurementTypeName": "Bearing Condition",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 225,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_z",
+        "MeasurementTypeID": 31,
+        "MeasurementTypeName": "Vibration (Radial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 202,
+        "MeasurementValue": "2.2910",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_y",
+        "MeasurementTypeID": 32,
+        "MeasurementTypeName": "Vibration (Tangential)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 203,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_x",
+        "MeasurementTypeID": 33,
+        "MeasurementTypeName": "Vibration (Axial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 204,
+        "MeasurementValue": "5.7031",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "EnergyConsumption",
+        "MeasurementTypeID": 64,
+        "MeasurementTypeName": "Output Power",
+        "MeasurementTypePrecision": 2,
+        "MeasurementTypeUnitGroupID": 5,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 259,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "MotorStartStopCount",
+        "MeasurementTypeID": 67,
+        "MeasurementTypeName": "Nr. Of Starts Between Measurements",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 254,
+        "MeasurementValue": null,
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_X_Motor",
+        "MeasurementTypeID": 249,
+        "MeasurementTypeName": "Peak to Peak (X)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 480,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Y_Motor",
+        "MeasurementTypeID": 250,
+        "MeasurementTypeName": "Peak to Peak (Y)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 481,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Z_Motor",
+        "MeasurementTypeID": 251,
+        "MeasurementTypeName": "Peak to Peak (Z)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 482,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_x_Motor",
+        "MeasurementTypeID": 259,
+        "MeasurementTypeName": "Bearing Indicator (Axial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 477,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_y_Motor",
+        "MeasurementTypeID": 260,
+        "MeasurementTypeName": "Bearing Indicator (Tangential)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 478,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_z_Motor",
+        "MeasurementTypeID": 261,
+        "MeasurementTypeName": "Bearing Indicator (Radial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 479,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": true,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Motor_TotalRunningTime",
+        "MeasurementTypeID": 297,
+        "MeasurementTypeName": "Total Running Time",
+        "MeasurementTypePrecision": 1,
+        "MeasurementTypeUnitGroupID": 13,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 545,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:53:05Z",
+        "UniqueID": "e6989803-e654-42b8-888f-57c1d288556d###1635868385"
+      }
+    ],
+    "Sensor": {
+      "SensorIdentifier": null,
+      "Hardware": {
+        "HardwareRevisionID": null,
+        "HardwareRevisionName": null,
+        "HardwareVarianceID": null,
+        "HardwareVarianceName": null
+      },
+      "FirmwareVersion": "5.5.9",
+      "CommissioningDate": null,
+      "Properties": null,
+      "Subscription": {
+        "IsBasicSubscription": null,
+        "IsTrialSubscription": null,
+        "StartDate": null,
+        "EndDate": null,
+        "SubscriptionLevel": {
+          "Description": "Carbon Capture Unit",
+          "Id": null,
+          "Name": null
+        },
+        "HasAvailableSubscriptions": null,
+        "IsExpiring": null
+      },
+      "Features": null,
+      "IsPowerSavingEnabled": null,
+      "OperatingMode": null
+    },
+    "LocationLatitude": "43.83895874023440000000",
+    "LocationLongitude": "-79.46312287637020000000",
+    "CreatedOn": "2021-11-02T15:52:34Z",
+    "LastUpdatedOn": "2021-11-02T15:52:44Z",
+    "OrganizationID": 16624,
+    "ConfigurationProfiles": null,
+    "AssetResponsibleID": 2288,
+    "AssetResponsibleName": "lance.rudolph@ca.abb.com",
+    "IsMonitored": true,
+    "AuthenticationPassKey": null,
+    "AuthenticationID": null,
+    "FirmwareVersion": "5.5.9",
+    "SensorTypeKey": {
+      "SensorType": 5,
+      "AssetType": 1
+    }
+  },
+  {
+    "AssetID": 43889,
+    "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd",
+    "DeviceID": "C200000FA4",
+    "AssetName": "S02",
+    "SerialNumber": "Sensor 002",
+    "Description": "Carbon Capture Unit",
+    "PlantID": 16328,
+    "PlantName": "FortisBC",
+    "AssetGroupID": 26249,
+    "AssetType": 1,
+    "SensorType": 5,
+    "AssetTypeName": "Motor",
+    "IsFavorite": false,
+    "FirmwareUpdate": {
+      "UpdateAvailable": null,
+      "UpdateFirmwareID": null,
+      "UpdateFirmwareVersion": null,
+      "UpdateFirmwareProperties": null
+    },
+    "BatteryLevel": 0,
+    "HealthStatus": 1,
+    "LastSyncTimeStamp": "2021-11-02T15:57:30Z",
+    "LastMeasurementTimeStamp": "2021-11-02T15:57:30Z",
+    "AssetProperties": [
+      {
+        "AssetPropertyValue": "NEMA",
+        "AssetPropertyName": "Motor Standard",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorClass",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Pump",
+        "AssetPropertyName": "Motor Load",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorLoad",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Fixed Speed",
+        "AssetPropertyName": "Speed Control",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "575.0000",
+        "AssetPropertyName": "Voltage",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 8,
+          "MeasurementUnitGroupName": "Voltage Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Voltage",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "5.2000",
+        "AssetPropertyName": "Current",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 9,
+          "MeasurementUnitGroupName": "Ampere Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Current",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1745.0000",
+        "AssetPropertyName": "Speed",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 14,
+          "MeasurementUnitGroupName": "Rotation Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Speed",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6206",
+        "AssetPropertyName": "DE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6205",
+        "AssetPropertyName": "NDE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.8250",
+        "AssetPropertyName": "Power Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_PowerFact",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "180.0000",
+        "AssetPropertyName": "Shaft Height",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_ShaftHeight",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "3.7300",
+        "AssetPropertyName": "Power",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 5,
+          "MeasurementUnitGroupName": "Power Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Power",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "60.0000",
+        "AssetPropertyName": "Line Frequency",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 10,
+          "MeasurementUnitGroupName": "Frequency Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_LineFrequency",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "NSK",
+        "AssetPropertyName": "DE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "NSK",
+        "AssetPropertyName": "NDE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "DE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealed",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "46.0000",
+        "AssetPropertyName": "DE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactor",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "NDE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealedNDS",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "38.0000",
+        "AssetPropertyName": "NDE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactorNDS",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "Induction",
+        "AssetPropertyName": "Motor Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ShaftRotationType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "FootMount",
+        "AssetPropertyName": "Asset Mounting Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "AssetMountingType",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Landscape",
+        "AssetPropertyName": "Sensor Mounting Orientation",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "SensorMountingOrientation",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Left",
+        "AssetPropertyName": "Terminal Box Position",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "TerminalBoxPosition",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Unknown/Other",
+        "AssetPropertyName": "Connection type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ConnectionType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      }
+    ],
+    "Measurements": [
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Speed",
+        "MeasurementTypeID": 2,
+        "MeasurementTypeName": "Speed",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 14,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 250,
+        "MeasurementValue": "143.6250",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "SkinTemp",
+        "MeasurementTypeID": 4,
+        "MeasurementTypeName": "Skin Temperature",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 4,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 251,
+        "MeasurementValue": "21.9844",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "OverallVibration",
+        "MeasurementTypeID": 8,
+        "MeasurementTypeName": "Overall Vibration",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 201,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "LineFrequency",
+        "MeasurementTypeID": 15,
+        "MeasurementTypeName": "Motor Supply Frequency",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 10,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 257,
+        "MeasurementValue": "4.9648",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "BearingCondition",
+        "MeasurementTypeID": 27,
+        "MeasurementTypeName": "Bearing Condition",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 225,
+        "MeasurementValue": "1.3949",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_z",
+        "MeasurementTypeID": 31,
+        "MeasurementTypeName": "Vibration (Radial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 202,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_y",
+        "MeasurementTypeID": 32,
+        "MeasurementTypeName": "Vibration (Tangential)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 203,
+        "MeasurementValue": "3.0020",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_x",
+        "MeasurementTypeID": 33,
+        "MeasurementTypeName": "Vibration (Axial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 204,
+        "MeasurementValue": "3.1152",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "EnergyConsumption",
+        "MeasurementTypeID": 64,
+        "MeasurementTypeName": "Output Power",
+        "MeasurementTypePrecision": 2,
+        "MeasurementTypeUnitGroupID": 5,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 259,
+        "MeasurementValue": "0.0298",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "MotorStartStopCount",
+        "MeasurementTypeID": 67,
+        "MeasurementTypeName": "Nr. Of Starts Between Measurements",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 254,
+        "MeasurementValue": null,
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_X_Motor",
+        "MeasurementTypeID": 249,
+        "MeasurementTypeName": "Peak to Peak (X)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 480,
+        "MeasurementValue": "0.5264",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Y_Motor",
+        "MeasurementTypeID": 250,
+        "MeasurementTypeName": "Peak to Peak (Y)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 481,
+        "MeasurementValue": "0.6616",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Z_Motor",
+        "MeasurementTypeID": 251,
+        "MeasurementTypeName": "Peak to Peak (Z)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 482,
+        "MeasurementValue": "0.6772",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_x_Motor",
+        "MeasurementTypeID": 259,
+        "MeasurementTypeName": "Bearing Indicator (Axial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 477,
+        "MeasurementValue": "-0.2621",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 1,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_y_Motor",
+        "MeasurementTypeID": 260,
+        "MeasurementTypeName": "Bearing Indicator (Tangential)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 478,
+        "MeasurementValue": "1.3535",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_z_Motor",
+        "MeasurementTypeID": 261,
+        "MeasurementTypeName": "Bearing Indicator (Radial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 479,
+        "MeasurementValue": "1.3949",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": true,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Motor_TotalRunningTime",
+        "MeasurementTypeID": 297,
+        "MeasurementTypeName": "Total Running Time",
+        "MeasurementTypePrecision": 1,
+        "MeasurementTypeUnitGroupID": 13,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 545,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T15:57:30Z",
+        "UniqueID": "7bd9ed11-398c-430b-b686-2823ef922ccd###1635868650"
+      }
+    ],
+    "Sensor": {
+      "SensorIdentifier": null,
+      "Hardware": {
+        "HardwareRevisionID": null,
+        "HardwareRevisionName": null,
+        "HardwareVarianceID": null,
+        "HardwareVarianceName": null
+      },
+      "FirmwareVersion": "5.5.9",
+      "CommissioningDate": null,
+      "Properties": null,
+      "Subscription": {
+        "IsBasicSubscription": null,
+        "IsTrialSubscription": null,
+        "StartDate": null,
+        "EndDate": null,
+        "SubscriptionLevel": {
+          "Description": "Carbon Capture Unit",
+          "Id": null,
+          "Name": null
+        },
+        "HasAvailableSubscriptions": null,
+        "IsExpiring": null
+      },
+      "Features": null,
+      "IsPowerSavingEnabled": null,
+      "OperatingMode": null
+    },
+    "LocationLatitude": "43.83895874023440000000",
+    "LocationLongitude": "-79.46312287637020000000",
+    "CreatedOn": "2021-11-02T15:57:08Z",
+    "LastUpdatedOn": "2021-11-02T15:57:14Z",
+    "OrganizationID": 16624,
+    "ConfigurationProfiles": null,
+    "AssetResponsibleID": 2288,
+    "AssetResponsibleName": "lance.rudolph@ca.abb.com",
+    "IsMonitored": true,
+    "AuthenticationPassKey": null,
+    "AuthenticationID": null,
+    "FirmwareVersion": "5.5.9",
+    "SensorTypeKey": {
+      "SensorType": 5,
+      "AssetType": 1
+    }
+  },
+  {
+    "AssetID": 43890,
+    "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8",
+    "DeviceID": "C200000FA6",
+    "AssetName": "S03",
+    "SerialNumber": "Sensor 003",
+    "Description": "Carbon Capture Unit",
+    "PlantID": 16328,
+    "PlantName": "FortisBC",
+    "AssetGroupID": 26249,
+    "AssetType": 1,
+    "SensorType": 5,
+    "AssetTypeName": "Motor",
+    "IsFavorite": false,
+    "FirmwareUpdate": {
+      "UpdateAvailable": null,
+      "UpdateFirmwareID": null,
+      "UpdateFirmwareVersion": null,
+      "UpdateFirmwareProperties": null
+    },
+    "BatteryLevel": 0,
+    "HealthStatus": 1,
+    "LastSyncTimeStamp": "2021-11-02T16:01:35Z",
+    "LastMeasurementTimeStamp": "2021-11-02T16:01:35Z",
+    "AssetProperties": [
+      {
+        "AssetPropertyValue": "NEMA",
+        "AssetPropertyName": "Motor Standard",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorClass",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Pump",
+        "AssetPropertyName": "Motor Load",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorLoad",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Fixed Speed",
+        "AssetPropertyName": "Speed Control",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "575.0000",
+        "AssetPropertyName": "Voltage",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 8,
+          "MeasurementUnitGroupName": "Voltage Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Voltage",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.8000",
+        "AssetPropertyName": "Current",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 9,
+          "MeasurementUnitGroupName": "Ampere Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Current",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1725.0000",
+        "AssetPropertyName": "Speed",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 14,
+          "MeasurementUnitGroupName": "Rotation Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Speed",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6203",
+        "AssetPropertyName": "DE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6203",
+        "AssetPropertyName": "NDE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.6300",
+        "AssetPropertyName": "Power Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_PowerFact",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "56.0000",
+        "AssetPropertyName": "Shaft Height",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_ShaftHeight",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.3720",
+        "AssetPropertyName": "Power",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 5,
+          "MeasurementUnitGroupName": "Power Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Power",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "60.0000",
+        "AssetPropertyName": "Line Frequency",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 10,
+          "MeasurementUnitGroupName": "Frequency Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_LineFrequency",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "DE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "NDE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "DE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealed",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "28.0000",
+        "AssetPropertyName": "DE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactor",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "NDE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealedNDS",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "28.0000",
+        "AssetPropertyName": "NDE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactorNDS",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "Induction",
+        "AssetPropertyName": "Motor Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ShaftRotationType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "FootMount",
+        "AssetPropertyName": "Asset Mounting Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "AssetMountingType",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Landscape",
+        "AssetPropertyName": "Sensor Mounting Orientation",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "SensorMountingOrientation",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Left",
+        "AssetPropertyName": "Terminal Box Position",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "TerminalBoxPosition",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Unknown/Other",
+        "AssetPropertyName": "Connection type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ConnectionType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      }
+    ],
+    "Measurements": [
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Speed",
+        "MeasurementTypeID": 2,
+        "MeasurementTypeName": "Speed",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 14,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 250,
+        "MeasurementValue": "202.2500",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "SkinTemp",
+        "MeasurementTypeID": 4,
+        "MeasurementTypeName": "Skin Temperature",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 4,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 251,
+        "MeasurementValue": "22.1719",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "OverallVibration",
+        "MeasurementTypeID": 8,
+        "MeasurementTypeName": "Overall Vibration",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 201,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "LineFrequency",
+        "MeasurementTypeID": 15,
+        "MeasurementTypeName": "Motor Supply Frequency",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 10,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 257,
+        "MeasurementValue": "7.0625",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "BearingCondition",
+        "MeasurementTypeID": 27,
+        "MeasurementTypeName": "Bearing Condition",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 225,
+        "MeasurementValue": "3.0822",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_z",
+        "MeasurementTypeID": 31,
+        "MeasurementTypeName": "Vibration (Radial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 202,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_y",
+        "MeasurementTypeID": 32,
+        "MeasurementTypeName": "Vibration (Tangential)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 203,
+        "MeasurementValue": "0.1114",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_x",
+        "MeasurementTypeID": 33,
+        "MeasurementTypeName": "Vibration (Axial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 204,
+        "MeasurementValue": "0.1132",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "EnergyConsumption",
+        "MeasurementTypeID": 64,
+        "MeasurementTypeName": "Output Power",
+        "MeasurementTypePrecision": 2,
+        "MeasurementTypeUnitGroupID": 5,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 259,
+        "MeasurementValue": "0.0056",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "MotorStartStopCount",
+        "MeasurementTypeID": 67,
+        "MeasurementTypeName": "Nr. Of Starts Between Measurements",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 254,
+        "MeasurementValue": null,
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_X_Motor",
+        "MeasurementTypeID": 249,
+        "MeasurementTypeName": "Peak to Peak (X)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 480,
+        "MeasurementValue": "0.1128",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Y_Motor",
+        "MeasurementTypeID": 250,
+        "MeasurementTypeName": "Peak to Peak (Y)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 481,
+        "MeasurementValue": "0.0889",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Z_Motor",
+        "MeasurementTypeID": 251,
+        "MeasurementTypeName": "Peak to Peak (Z)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 482,
+        "MeasurementValue": "0.2056",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_x_Motor",
+        "MeasurementTypeID": 259,
+        "MeasurementTypeName": "Bearing Indicator (Axial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 477,
+        "MeasurementValue": "3.0451",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_y_Motor",
+        "MeasurementTypeID": 260,
+        "MeasurementTypeName": "Bearing Indicator (Tangential)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 478,
+        "MeasurementValue": "3.0355",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_z_Motor",
+        "MeasurementTypeID": 261,
+        "MeasurementTypeName": "Bearing Indicator (Radial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 479,
+        "MeasurementValue": "3.0822",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": true,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Motor_TotalRunningTime",
+        "MeasurementTypeID": 297,
+        "MeasurementTypeName": "Total Running Time",
+        "MeasurementTypePrecision": 1,
+        "MeasurementTypeUnitGroupID": 13,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 545,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:01:35Z",
+        "UniqueID": "84b4de3e-afc1-4a16-9111-f45e1cf169e8###1635868895"
+      }
+    ],
+    "Sensor": {
+      "SensorIdentifier": null,
+      "Hardware": {
+        "HardwareRevisionID": null,
+        "HardwareRevisionName": null,
+        "HardwareVarianceID": null,
+        "HardwareVarianceName": null
+      },
+      "FirmwareVersion": "5.5.9",
+      "CommissioningDate": null,
+      "Properties": null,
+      "Subscription": {
+        "IsBasicSubscription": null,
+        "IsTrialSubscription": null,
+        "StartDate": null,
+        "EndDate": null,
+        "SubscriptionLevel": {
+          "Description": "Carbon Capture Unit",
+          "Id": null,
+          "Name": null
+        },
+        "HasAvailableSubscriptions": null,
+        "IsExpiring": null
+      },
+      "Features": null,
+      "IsPowerSavingEnabled": null,
+      "OperatingMode": null
+    },
+    "LocationLatitude": "43.83895874023440000000",
+    "LocationLongitude": "-79.46312287637020000000",
+    "CreatedOn": "2021-11-02T16:01:10Z",
+    "LastUpdatedOn": "2021-11-02T16:01:19Z",
+    "OrganizationID": 16624,
+    "ConfigurationProfiles": null,
+    "AssetResponsibleID": 2288,
+    "AssetResponsibleName": "lance.rudolph@ca.abb.com",
+    "IsMonitored": true,
+    "AuthenticationPassKey": null,
+    "AuthenticationID": null,
+    "FirmwareVersion": "5.5.9",
+    "SensorTypeKey": {
+      "SensorType": 5,
+      "AssetType": 1
+    }
+  },
+  {
+    "AssetID": 43891,
+    "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2",
+    "DeviceID": "C200000FA7",
+    "AssetName": "S04",
+    "SerialNumber": "Sensor 004",
+    "Description": "Carbon Capture Unit",
+    "PlantID": 16328,
+    "PlantName": "FortisBC",
+    "AssetGroupID": 26249,
+    "AssetType": 1,
+    "SensorType": 5,
+    "AssetTypeName": "Motor",
+    "IsFavorite": false,
+    "FirmwareUpdate": {
+      "UpdateAvailable": null,
+      "UpdateFirmwareID": null,
+      "UpdateFirmwareVersion": null,
+      "UpdateFirmwareProperties": null
+    },
+    "BatteryLevel": 0,
+    "HealthStatus": 1,
+    "LastSyncTimeStamp": "2021-11-02T16:18:17Z",
+    "LastMeasurementTimeStamp": "2021-11-02T16:18:17Z",
+    "AssetProperties": [
+      {
+        "AssetPropertyValue": "NEMA",
+        "AssetPropertyName": "Motor Standard",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorClass",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Pump",
+        "AssetPropertyName": "Motor Load",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorLoad",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Fixed Speed",
+        "AssetPropertyName": "Speed Control",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "575.0000",
+        "AssetPropertyName": "Voltage",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 8,
+          "MeasurementUnitGroupName": "Voltage Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Voltage",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.8000",
+        "AssetPropertyName": "Current",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 9,
+          "MeasurementUnitGroupName": "Ampere Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Current",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1725.0000",
+        "AssetPropertyName": "Speed",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 14,
+          "MeasurementUnitGroupName": "Rotation Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Speed",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6203",
+        "AssetPropertyName": "DE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6203",
+        "AssetPropertyName": "NDE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.6300",
+        "AssetPropertyName": "Power Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_PowerFact",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "56.0000",
+        "AssetPropertyName": "Shaft Height",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_ShaftHeight",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.3720",
+        "AssetPropertyName": "Power",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 5,
+          "MeasurementUnitGroupName": "Power Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Power",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "60.0000",
+        "AssetPropertyName": "Line Frequency",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 10,
+          "MeasurementUnitGroupName": "Frequency Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_LineFrequency",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "DE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "NDE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "DE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealed",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "28.0000",
+        "AssetPropertyName": "DE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactor",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "NDE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealedNDS",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "28.0000",
+        "AssetPropertyName": "NDE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactorNDS",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "Induction",
+        "AssetPropertyName": "Motor Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ShaftRotationType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "FootMount",
+        "AssetPropertyName": "Asset Mounting Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "AssetMountingType",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Landscape",
+        "AssetPropertyName": "Sensor Mounting Orientation",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "SensorMountingOrientation",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Left",
+        "AssetPropertyName": "Terminal Box Position",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "TerminalBoxPosition",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Unknown/Other",
+        "AssetPropertyName": "Connection type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ConnectionType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      }
+    ],
+    "Measurements": [
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Speed",
+        "MeasurementTypeID": 2,
+        "MeasurementTypeName": "Speed",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 14,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 250,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "SkinTemp",
+        "MeasurementTypeID": 4,
+        "MeasurementTypeName": "Skin Temperature",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 4,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 251,
+        "MeasurementValue": "22.5938",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "OverallVibration",
+        "MeasurementTypeID": 8,
+        "MeasurementTypeName": "Overall Vibration",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 201,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "LineFrequency",
+        "MeasurementTypeID": 15,
+        "MeasurementTypeName": "Motor Supply Frequency",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 10,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 257,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "BearingCondition",
+        "MeasurementTypeID": 27,
+        "MeasurementTypeName": "Bearing Condition",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 225,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_z",
+        "MeasurementTypeID": 31,
+        "MeasurementTypeName": "Vibration (Radial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 202,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_y",
+        "MeasurementTypeID": 32,
+        "MeasurementTypeName": "Vibration (Tangential)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 203,
+        "MeasurementValue": "0.0559",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_x",
+        "MeasurementTypeID": 33,
+        "MeasurementTypeName": "Vibration (Axial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 204,
+        "MeasurementValue": "0.0588",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "EnergyConsumption",
+        "MeasurementTypeID": 64,
+        "MeasurementTypeName": "Output Power",
+        "MeasurementTypePrecision": 2,
+        "MeasurementTypeUnitGroupID": 5,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 259,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "MotorStartStopCount",
+        "MeasurementTypeID": 67,
+        "MeasurementTypeName": "Nr. Of Starts Between Measurements",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 254,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_X_Motor",
+        "MeasurementTypeID": 249,
+        "MeasurementTypeName": "Peak to Peak (X)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 480,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Y_Motor",
+        "MeasurementTypeID": 250,
+        "MeasurementTypeName": "Peak to Peak (Y)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 481,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Z_Motor",
+        "MeasurementTypeID": 251,
+        "MeasurementTypeName": "Peak to Peak (Z)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 482,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_x_Motor",
+        "MeasurementTypeID": 259,
+        "MeasurementTypeName": "Bearing Indicator (Axial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 477,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_y_Motor",
+        "MeasurementTypeID": 260,
+        "MeasurementTypeName": "Bearing Indicator (Tangential)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 478,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_z_Motor",
+        "MeasurementTypeID": 261,
+        "MeasurementTypeName": "Bearing Indicator (Radial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 479,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": true,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Motor_TotalRunningTime",
+        "MeasurementTypeID": 297,
+        "MeasurementTypeName": "Total Running Time",
+        "MeasurementTypePrecision": 1,
+        "MeasurementTypeUnitGroupID": 13,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 545,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:18:17Z",
+        "UniqueID": "d6580f03-6994-4793-be33-be7fa878d8d2###1635869897"
+      }
+    ],
+    "Sensor": {
+      "SensorIdentifier": null,
+      "Hardware": {
+        "HardwareRevisionID": null,
+        "HardwareRevisionName": null,
+        "HardwareVarianceID": null,
+        "HardwareVarianceName": null
+      },
+      "FirmwareVersion": "5.5.9",
+      "CommissioningDate": null,
+      "Properties": null,
+      "Subscription": {
+        "IsBasicSubscription": null,
+        "IsTrialSubscription": null,
+        "StartDate": null,
+        "EndDate": null,
+        "SubscriptionLevel": {
+          "Description": "Carbon Capture Unit",
+          "Id": null,
+          "Name": null
+        },
+        "HasAvailableSubscriptions": null,
+        "IsExpiring": null
+      },
+      "Features": null,
+      "IsPowerSavingEnabled": null,
+      "OperatingMode": null
+    },
+    "LocationLatitude": "43.83895874023440000000",
+    "LocationLongitude": "-79.46312287637020000000",
+    "CreatedOn": "2021-11-02T16:05:06Z",
+    "LastUpdatedOn": "2021-11-02T16:21:40Z",
+    "OrganizationID": 16624,
+    "ConfigurationProfiles": null,
+    "AssetResponsibleID": 2288,
+    "AssetResponsibleName": "lance.rudolph@ca.abb.com",
+    "IsMonitored": true,
+    "AuthenticationPassKey": null,
+    "AuthenticationID": null,
+    "FirmwareVersion": "5.5.9",
+    "SensorTypeKey": {
+      "SensorType": 5,
+      "AssetType": 1
+    }
+  },
+  {
+    "AssetID": 43892,
+    "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd",
+    "DeviceID": "C200000FA8",
+    "AssetName": "S05",
+    "SerialNumber": "Sensor 005",
+    "Description": "Carbon Capture Unit",
+    "PlantID": 16328,
+    "PlantName": "FortisBC",
+    "AssetGroupID": 26249,
+    "AssetType": 1,
+    "SensorType": 5,
+    "AssetTypeName": "Motor",
+    "IsFavorite": false,
+    "FirmwareUpdate": {
+      "UpdateAvailable": null,
+      "UpdateFirmwareID": null,
+      "UpdateFirmwareVersion": null,
+      "UpdateFirmwareProperties": null
+    },
+    "BatteryLevel": 0,
+    "HealthStatus": 1,
+    "LastSyncTimeStamp": "2021-11-02T16:22:03Z",
+    "LastMeasurementTimeStamp": "2021-11-02T16:22:03Z",
+    "AssetProperties": [
+      {
+        "AssetPropertyValue": "NEMA",
+        "AssetPropertyName": "Motor Standard",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorClass",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Pump",
+        "AssetPropertyName": "Motor Load",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorLoad",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Fixed Speed",
+        "AssetPropertyName": "Speed Control",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "MotorType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "575.0000",
+        "AssetPropertyName": "Voltage",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 8,
+          "MeasurementUnitGroupName": "Voltage Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Voltage",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1.2000",
+        "AssetPropertyName": "Current",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 9,
+          "MeasurementUnitGroupName": "Ampere Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Current",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1740.0000",
+        "AssetPropertyName": "Speed",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 14,
+          "MeasurementUnitGroupName": "Rotation Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Speed",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6205",
+        "AssetPropertyName": "DE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "6203",
+        "AssetPropertyName": "NDE Bearing",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDSBearing",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.8000",
+        "AssetPropertyName": "Power Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_PowerFact",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "140.0000",
+        "AssetPropertyName": "Shaft Height",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_ShaftHeight",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "0.7460",
+        "AssetPropertyName": "Power",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 5,
+          "MeasurementUnitGroupName": "Power Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_Power",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 2,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "60.0000",
+        "AssetPropertyName": "Line Frequency",
+        "MeasurementUnitGroup": {
+          "MeasurementUnitGroupID": 10,
+          "MeasurementUnitGroupName": "Frequency Unit",
+          "MeasurementUnitDefault": null
+        },
+        "AssetPropertyType": "Nameplate_LineFrequency",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 1,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "DE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_DS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "SKF",
+        "AssetPropertyName": "NDE Manufacturer",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Nameplate_NDS_Manufacturer",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "DE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealed",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "38.0000",
+        "AssetPropertyName": "DE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactor",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "1",
+        "AssetPropertyName": "NDE Bearing Sealed",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_IsBearingSealedNDS",
+        "AssetPropertyDataType": "Boolean",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "28.0000",
+        "AssetPropertyName": "NDE Dimension Factor",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "Greasing_DimensionFactorNDS",
+        "AssetPropertyDataType": "Decimal",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": false
+      },
+      {
+        "AssetPropertyValue": "Induction",
+        "AssetPropertyName": "Motor Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ShaftRotationType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "FootMount",
+        "AssetPropertyName": "Asset Mounting Type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "AssetMountingType",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Landscape",
+        "AssetPropertyName": "Sensor Mounting Orientation",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "SensorMountingOrientation",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Left",
+        "AssetPropertyName": "Terminal Box Position",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "TerminalBoxPosition",
+        "AssetPropertyDataType": "String",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      },
+      {
+        "AssetPropertyValue": "Unknown/Other",
+        "AssetPropertyName": "Connection type",
+        "MeasurementUnitGroup": null,
+        "AssetPropertyType": "ConnectionType",
+        "AssetPropertyDataType": "Identifier",
+        "AssetPropertyPrecision": 0,
+        "IsEnabled": true
+      }
+    ],
+    "Measurements": [
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Speed",
+        "MeasurementTypeID": 2,
+        "MeasurementTypeName": "Speed",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 14,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 250,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "SkinTemp",
+        "MeasurementTypeID": 4,
+        "MeasurementTypeName": "Skin Temperature",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 4,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 251,
+        "MeasurementValue": "22.7344",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": true,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "OverallVibration",
+        "MeasurementTypeID": 8,
+        "MeasurementTypeName": "Overall Vibration",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 201,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "LineFrequency",
+        "MeasurementTypeID": 15,
+        "MeasurementTypeName": "Motor Supply Frequency",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 10,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 257,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 1,
+          "HealthColor": "#21BE89"
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": true,
+        "MeasurementTypeCode": "BearingCondition",
+        "MeasurementTypeID": 27,
+        "MeasurementTypeName": "Bearing Condition",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 225,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_z",
+        "MeasurementTypeID": 31,
+        "MeasurementTypeName": "Vibration (Radial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 202,
+        "MeasurementValue": "0.1006",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_y",
+        "MeasurementTypeID": 32,
+        "MeasurementTypeName": "Vibration (Tangential)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 203,
+        "MeasurementValue": "0.0862",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Acc_x",
+        "MeasurementTypeID": 33,
+        "MeasurementTypeName": "Vibration (Axial)",
+        "MeasurementTypePrecision": 3,
+        "MeasurementTypeUnitGroupID": 6,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 204,
+        "MeasurementValue": "0.0547",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "EnergyConsumption",
+        "MeasurementTypeID": 64,
+        "MeasurementTypeName": "Output Power",
+        "MeasurementTypePrecision": 2,
+        "MeasurementTypeUnitGroupID": 5,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 259,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "MotorStartStopCount",
+        "MeasurementTypeID": 67,
+        "MeasurementTypeName": "Nr. Of Starts Between Measurements",
+        "MeasurementTypePrecision": 0,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 254,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_X_Motor",
+        "MeasurementTypeID": 249,
+        "MeasurementTypeName": "Peak to Peak (X)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 480,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Y_Motor",
+        "MeasurementTypeID": 250,
+        "MeasurementTypeName": "Peak to Peak (Y)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 481,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "PeakToPeak_Z_Motor",
+        "MeasurementTypeID": 251,
+        "MeasurementTypeName": "Peak to Peak (Z)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 21,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 482,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_x_Motor",
+        "MeasurementTypeID": 259,
+        "MeasurementTypeName": "Bearing Indicator (Axial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 477,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_y_Motor",
+        "MeasurementTypeID": 260,
+        "MeasurementTypeName": "Bearing Indicator (Tangential)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 478,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": false,
+        "IsEditable": false,
+        "IsVisible": false,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Bearing_z_Motor",
+        "MeasurementTypeID": 261,
+        "MeasurementTypeName": "Bearing Indicator (Radial)",
+        "MeasurementTypePrecision": 4,
+        "MeasurementTypeUnitGroupID": 0,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 479,
+        "MeasurementValue": "0.0000",
+        "IsCalibrationEnabled": false,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      },
+      {
+        "HealthStatus": {
+          "HealthCode": 0,
+          "HealthColor": null
+        },
+        "IsCumulative": true,
+        "IsEditable": false,
+        "IsVisible": true,
+        "IsHealthParameter": false,
+        "MeasurementTypeCode": "Motor_TotalRunningTime",
+        "MeasurementTypeID": 297,
+        "MeasurementTypeName": "Total Running Time",
+        "MeasurementTypePrecision": 1,
+        "MeasurementTypeUnitGroupID": 13,
+        "MeasurementTypeUnitGroupName": null,
+        "MeasurementTypeSequenceNo": 545,
+        "MeasurementValue": "0.1000",
+        "IsCalibrationEnabled": true,
+        "MeasurementCalibration": null,
+        "QualityFlag": 9,
+        "TimeStamp": "2021-11-02T16:22:03Z",
+        "UniqueID": "e9bdefab-5ec6-454e-a206-908de97185dd###1635870123"
+      }
+    ],
+    "Sensor": {
+      "SensorIdentifier": null,
+      "Hardware": {
+        "HardwareRevisionID": null,
+        "HardwareRevisionName": null,
+        "HardwareVarianceID": null,
+        "HardwareVarianceName": null
+      },
+      "FirmwareVersion": "5.5.9",
+      "CommissioningDate": null,
+      "Properties": null,
+      "Subscription": {
+        "IsBasicSubscription": null,
+        "IsTrialSubscription": null,
+        "StartDate": null,
+        "EndDate": null,
+        "SubscriptionLevel": {
+          "Description": "Carbon Capture Unit",
+          "Id": null,
+          "Name": null
+        },
+        "HasAvailableSubscriptions": null,
+        "IsExpiring": null
+      },
+      "Features": null,
+      "IsPowerSavingEnabled": null,
+      "OperatingMode": null
+    },
+    "LocationLatitude": "43.83895874023440000000",
+    "LocationLongitude": "-79.46312287637020000000",
+    "CreatedOn": "2021-11-02T16:09:17Z",
+    "LastUpdatedOn": "2021-11-02T16:21:40Z",
+    "OrganizationID": 16624,
+    "ConfigurationProfiles": null,
+    "AssetResponsibleID": 2288,
+    "AssetResponsibleName": "lance.rudolph@ca.abb.com",
+    "IsMonitored": true,
+    "AuthenticationPassKey": null,
+    "AuthenticationID": null,
+    "FirmwareVersion": "5.5.9",
+    "SensorTypeKey": {
+      "SensorType": 5,
+      "AssetType": 1
+    }
+  }
+]
